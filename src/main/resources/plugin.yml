@@ -1,0 +1,16 @@
+name: Reload_plugins
+version: '${project.version}'
+main: dev_tools.reload_plugins.Reload_plugins
+api-version: 1.18
+
+commands:
+  myReload:
+    description: full relaod of all plugins
+  myRestart:
+      description: restart all plugins
+
+  myPlugins:
+    description: args -> enable/disable
+
+  myClear:
+    description: clear all plugins
