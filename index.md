@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+## What is this 
 
-You can use the [editor on GitHub](https://github.com/asdi952/reload_plugin_minecraft/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is a plugin for Paper minecraft server(high performance fork of the Spigot Minecraft Serve).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## why do i need it
 
-### Markdown
+Makes eazier developing plugins, you just have to compile you plugins and that's it
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## How to use it
+Steps:
+```
+- The files in this repo need be compiled into a "*.jar" file
 
-```markdown
-Syntax highlighted code block
+- Insert the "*.jar" in plugins folder(of the paper server)
 
-# Header 1
-## Header 2
-### Header 3
+- Run server once, it will be created once file in root of server called "plugins_file.txt", close server
 
-- Bulleted
-- List
+- Write in "plugins_file.txt", the path of the rest of you "*.jar" plugins (one path per line)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- that's it, run server
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/asdi952/reload_plugin_minecraft/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
